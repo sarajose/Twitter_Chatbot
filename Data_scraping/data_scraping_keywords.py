@@ -31,7 +31,7 @@ try:
 except:
     print("Error during authentication")
 
-# Search hashtags (8 refugees)
+# Search words
 search_words = ["MicrosoftHelps", "AmamzonHelps", "AskPayPal"]
 
 found_words = []
