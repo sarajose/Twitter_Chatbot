@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 from keras.models import load_model
 
-ERR_THRESHOLD = 0.3
+ERR_THRESHOLD = 0.2
 
 #Make a prediction
 def predict_class(sentence, X_train, model):
@@ -20,5 +20,5 @@ def predict_class(sentence, X_train, model):
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
     for r in results:
-        return_list.append({"Ids": str[r[0]], "Probability": str(r[1])})
+        return_list.append({"Ids": str(r[0]), "Probability": str(r[1])})
     return return_list
