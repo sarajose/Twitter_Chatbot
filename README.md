@@ -1,5 +1,5 @@
 # Twitter_Chatbot
-Chat bot that answers simple questions trained with a database of tweets
+Retrieval based chatbot that mimics a the apple helpdesk. The chat bot answers simple questions when a question is input. It is trained with a database of tweets from AppleSupport twitter account.
 
 The used data has been obtained from The Customer Support on Twitter database.
 https://www.kaggle.com/thoughtvector/customer-support-on-twitter
@@ -19,3 +19,8 @@ https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 **response_tweet_id :** IDs of tweets that are responses to this tweet, comma-separated.
 
 **in_response_to_tweet_id :** ID of the tweet this tweet is in response to, if any.
+
+# Usage
+To train the model run: train_model.py
+To test the model run: test_model.py
+Any change to the NN architecture can be done in: snn_model.py
