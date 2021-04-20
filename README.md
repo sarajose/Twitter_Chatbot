@@ -22,5 +22,7 @@ https://www.kaggle.com/thoughtvector/customer-support-on-twitter
 
 # Usage
 To train the model run: train_model.py
+
 To test the model run: test_model.py
+
 Any change to the NN architecture can be done in: snn_model.py
